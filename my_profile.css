@@ -1,0 +1,188 @@
+body{
+	background-color: #EDEDED ;
+	color: #2D2424;
+	font-family: PT serif;
+	font-size: 14px;
+	text-align: justify;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2{
+	font-family: Lobster;
+	color: #865858;
+	font-size: 30px;
+}
+
+h3{
+	font-family: Lobster;
+	font-size: 20px
+
+}
+
+a{
+	color: #A0937D;
+}
+
+a:hover{
+	color: #6C4A4A;
+}
+
+
+.sidebar {
+  position: fixed;
+  width: 300px;
+  left: 50px;
+  top: 200px;
+  bottom: 0;
+}
+
+.sidebar ul {
+   list-style: none;
+	padding-left: 0px;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.sidebar a{
+	text-decoration: none;
+}
+
+.container{
+	width: 800px;
+	margin: 30px auto;
+}
+
+
+
+.card-white{
+	background-color: #FEF9EF;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-indent: 30px;
+}
+
+#ps{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	padding:  30px;
+}
+
+
+
+.card-pink{
+	background-color: #DDBEBE;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+	padding: 10px 20px;
+	margin: 20px;
+	border-radius: 10px;
+	flex-basis: 250px;
+	text-indent: 0;
+}
+
+#profile{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content:space-around;
+}
+
+.card-pink img{
+	border-style: inset;
+	border-color: #6C4A4A;
+	border-width: 5px;
+}
+
+.card-pink h2{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.list-center{
+	list-style: none;
+	padding: 0px;
+}
+
+.list-center li{
+	display: inline-block;
+	margin:  10px;
+}
+
+.list-center img{
+	border-style: dotted;
+	border-color: #C89595;
+	border-width: 5px;
+}
+
+
+
+.list-inline{
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding:  10px;
+	margin: 0px;
+	text-indent: 0px
+}
+
+
+.list-inline i{
+	font-size: 30px;
+}
+
+
+.btn-pink{
+	background-color: #C89595;
+	color: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 14px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	text-indent: 0;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+
+.card-trans{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	text-indent: 0px
+}
+
+
+@media (max-width: 960px) {
+   .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+   .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+   .container {
+    width: 300px;
+  }
+}
